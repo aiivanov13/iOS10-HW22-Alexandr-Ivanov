@@ -9,19 +9,30 @@
 /* Begin PBXBuildFile section */
 		F65E5D622AADA8D7009029B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E5D612AADA8D7009029B2 /* AppDelegate.swift */; };
 		F65E5D642AADA8D7009029B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E5D632AADA8D7009029B2 /* SceneDelegate.swift */; };
-		F65E5D662AADA8D7009029B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E5D652AADA8D7009029B2 /* ViewController.swift */; };
+		F65E5D662AADA8D7009029B2 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E5D652AADA8D7009029B2 /* UsersView.swift */; };
 		F65E5D6B2AADA8D7009029B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F65E5D6A2AADA8D7009029B2 /* Assets.xcassets */; };
 		F65E5D6E2AADA8D7009029B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F65E5D6C2AADA8D7009029B2 /* LaunchScreen.storyboard */; };
+		F65E5D7D2AADACE6009029B2 /* UsersProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E5D7C2AADACE6009029B2 /* UsersProtocols.swift */; };
+		F65E5D7F2AADAD08009029B2 /* UsersModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E5D7E2AADAD08009029B2 /* UsersModule.swift */; };
+		F65E5D812AADAD3C009029B2 /* UsersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E5D802AADAD3C009029B2 /* UsersPresenter.swift */; };
+		F65E5D832AADAD46009029B2 /* UsersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E5D822AADAD46009029B2 /* UsersRouter.swift */; };
+		F65E5D862AADADEF009029B2 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F65E5D852AADADEF009029B2 /* SnapKit */; };
+		F65E5D892AADAE69009029B2 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E5D882AADAE69009029B2 /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F65E5D5E2AADA8D7009029B2 /* iOS10-HW22-Alexandr-Ivanov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS10-HW22-Alexandr-Ivanov.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F65E5D612AADA8D7009029B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F65E5D632AADA8D7009029B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F65E5D652AADA8D7009029B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F65E5D652AADA8D7009029B2 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
 		F65E5D6A2AADA8D7009029B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F65E5D6D2AADA8D7009029B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F65E5D6F2AADA8D7009029B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F65E5D7C2AADACE6009029B2 /* UsersProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersProtocols.swift; sourceTree = "<group>"; };
+		F65E5D7E2AADAD08009029B2 /* UsersModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersModule.swift; sourceTree = "<group>"; };
+		F65E5D802AADAD3C009029B2 /* UsersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersPresenter.swift; sourceTree = "<group>"; };
+		F65E5D822AADAD46009029B2 /* UsersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRouter.swift; sourceTree = "<group>"; };
+		F65E5D882AADAE69009029B2 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F65E5D862AADADEF009029B2 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,9 +103,46 @@
 		F65E5D782AADA906009029B2 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				F65E5D652AADA8D7009029B2 /* ViewController.swift */,
+				F65E5D872AADAE51009029B2 /* Extensions */,
+				F65E5D792AADACB8009029B2 /* Users */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		F65E5D792AADACB8009029B2 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				F65E5D7E2AADAD08009029B2 /* UsersModule.swift */,
+				F65E5D7B2AADACD1009029B2 /* Interaces */,
+				F65E5D7A2AADACC8009029B2 /* Implemantations */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		F65E5D7A2AADACC8009029B2 /* Implemantations */ = {
+			isa = PBXGroup;
+			children = (
+				F65E5D652AADA8D7009029B2 /* UsersView.swift */,
+				F65E5D802AADAD3C009029B2 /* UsersPresenter.swift */,
+				F65E5D822AADAD46009029B2 /* UsersRouter.swift */,
+			);
+			path = Implemantations;
+			sourceTree = "<group>";
+		};
+		F65E5D7B2AADACD1009029B2 /* Interaces */ = {
+			isa = PBXGroup;
+			children = (
+				F65E5D7C2AADACE6009029B2 /* UsersProtocols.swift */,
+			);
+			path = Interaces;
+			sourceTree = "<group>";
+		};
+		F65E5D872AADAE51009029B2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F65E5D882AADAE69009029B2 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +161,9 @@
 			dependencies = (
 			);
 			name = "iOS10-HW22-Alexandr-Ivanov";
+			packageProductDependencies = (
+				F65E5D852AADADEF009029B2 /* SnapKit */,
+			);
 			productName = "iOS10-HW22-Alexandr-Ivanov";
 			productReference = F65E5D5E2AADA8D7009029B2 /* iOS10-HW22-Alexandr-Ivanov.app */;
 			productType = "com.apple.product-type.application";
@@ -140,6 +192,9 @@
 				Base,
 			);
 			mainGroup = F65E5D552AADA8D7009029B2;
+			packageReferences = (
+				F65E5D842AADADEF009029B2 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = F65E5D5F2AADA8D7009029B2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -166,9 +221,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F65E5D662AADA8D7009029B2 /* ViewController.swift in Sources */,
+				F65E5D662AADA8D7009029B2 /* UsersView.swift in Sources */,
 				F65E5D622AADA8D7009029B2 /* AppDelegate.swift in Sources */,
+				F65E5D832AADAD46009029B2 /* UsersRouter.swift in Sources */,
+				F65E5D7D2AADACE6009029B2 /* UsersProtocols.swift in Sources */,
 				F65E5D642AADA8D7009029B2 /* SceneDelegate.swift in Sources */,
+				F65E5D7F2AADAD08009029B2 /* UsersModule.swift in Sources */,
+				F65E5D892AADAE69009029B2 /* UIView+Extensions.swift in Sources */,
+				F65E5D812AADAD3C009029B2 /* UsersPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +436,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F65E5D842AADADEF009029B2 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F65E5D852AADADEF009029B2 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F65E5D842AADADEF009029B2 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F65E5D562AADA8D7009029B2 /* Project object */;
 }
