@@ -1,12 +1,12 @@
 import UIKit
 
-class UsersModule {
+final class UsersBuilder {
     func makeModule() -> UIViewController {
         let viewController = UsersView()
-        let presenter = UsersPresenter(view: viewController)
         let router = UsersRouter(viewController: viewController)
+        let coreDataManager = CoreDataManager()
+        let presenter = UsersPresenter(view: viewController, dataManager: coreDataManager, router: router)
         viewController.presenter = presenter
-        presenter.router = router
 
         let navigationController = UINavigationController(rootViewController: viewController)
         
