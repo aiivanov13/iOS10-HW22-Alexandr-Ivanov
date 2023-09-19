@@ -7,21 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F626EC1B2AB5EBDA00F492D2 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626EC1A2AB5EBDA00F492D2 /* CoreDataStack.swift */; };
+		F626EC1F2AB6F37C00F492D2 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626EC1E2AB6F37C00F492D2 /* CoreDataManager.swift */; };
+		F626EC362AB7923200F492D2 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F626EC342AB7923200F492D2 /* CoreData.xcdatamodeld */; };
+		F626EC392AB8497800F492D2 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626EC382AB8497800F492D2 /* UserCell.swift */; };
+		F626EC3B2AB8551100F492D2 /* CoreDataProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626EC3A2AB8551100F492D2 /* CoreDataProtocols.swift */; };
+		F626EC3D2AB87A2800F492D2 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626EC3C2AB87A2800F492D2 /* UIViewController+Extensions.swift */; };
+		F626EC422AB87DDD00F492D2 /* DetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626EC412AB87DDD00F492D2 /* DetailBuilder.swift */; };
+		F626EC442AB87E0F00F492D2 /* DetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626EC432AB87E0F00F492D2 /* DetailProtocols.swift */; };
+		F626EC462AB87E3800F492D2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626EC452AB87E3800F492D2 /* DetailView.swift */; };
+		F626EC482AB87E4200F492D2 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626EC472AB87E4200F492D2 /* DetailPresenter.swift */; };
+		F626EC4A2AB87E4B00F492D2 /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626EC492AB87E4B00F492D2 /* DetailRouter.swift */; };
+		F626EC4C2AB8DC9A00F492D2 /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626EC4B2AB8DC9A00F492D2 /* TextFieldCell.swift */; };
+		F626EC4E2AB8E40000F492D2 /* UIStackView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626EC4D2AB8E40000F492D2 /* UIStackView+Extensions.swift */; };
 		F65E5D622AADA8D7009029B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E5D612AADA8D7009029B2 /* AppDelegate.swift */; };
 		F65E5D642AADA8D7009029B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E5D632AADA8D7009029B2 /* SceneDelegate.swift */; };
-		F65E5D662AADA8D7009029B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E5D652AADA8D7009029B2 /* ViewController.swift */; };
+		F65E5D662AADA8D7009029B2 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E5D652AADA8D7009029B2 /* UsersView.swift */; };
 		F65E5D6B2AADA8D7009029B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F65E5D6A2AADA8D7009029B2 /* Assets.xcassets */; };
 		F65E5D6E2AADA8D7009029B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F65E5D6C2AADA8D7009029B2 /* LaunchScreen.storyboard */; };
+		F65E5D7D2AADACE6009029B2 /* UsersProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E5D7C2AADACE6009029B2 /* UsersProtocols.swift */; };
+		F65E5D7F2AADAD08009029B2 /* UsersBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E5D7E2AADAD08009029B2 /* UsersBuilder.swift */; };
+		F65E5D812AADAD3C009029B2 /* UsersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E5D802AADAD3C009029B2 /* UsersPresenter.swift */; };
+		F65E5D832AADAD46009029B2 /* UsersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E5D822AADAD46009029B2 /* UsersRouter.swift */; };
+		F65E5D862AADADEF009029B2 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F65E5D852AADADEF009029B2 /* SnapKit */; };
+		F65E5D892AADAE69009029B2 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E5D882AADAE69009029B2 /* UIView+Extensions.swift */; };
+		F6D35AED2AB9E7F600B61ECD /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D35AEC2AB9E7F600B61ECD /* Date+Extensions.swift */; };
+		F6D35AFB2AB9FB1300B61ECD /* DefaultImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D35AFA2AB9FB1300B61ECD /* DefaultImageData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F626EC1A2AB5EBDA00F492D2 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		F626EC1E2AB6F37C00F492D2 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		F626EC352AB7923200F492D2 /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		F626EC382AB8497800F492D2 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		F626EC3A2AB8551100F492D2 /* CoreDataProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProtocols.swift; sourceTree = "<group>"; };
+		F626EC3C2AB87A2800F492D2 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		F626EC412AB87DDD00F492D2 /* DetailBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBuilder.swift; sourceTree = "<group>"; };
+		F626EC432AB87E0F00F492D2 /* DetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProtocols.swift; sourceTree = "<group>"; };
+		F626EC452AB87E3800F492D2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F626EC472AB87E4200F492D2 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		F626EC492AB87E4B00F492D2 /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
+		F626EC4B2AB8DC9A00F492D2 /* TextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
+		F626EC4D2AB8E40000F492D2 /* UIStackView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extensions.swift"; sourceTree = "<group>"; };
 		F65E5D5E2AADA8D7009029B2 /* iOS10-HW22-Alexandr-Ivanov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS10-HW22-Alexandr-Ivanov.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F65E5D612AADA8D7009029B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F65E5D632AADA8D7009029B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F65E5D652AADA8D7009029B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F65E5D652AADA8D7009029B2 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
 		F65E5D6A2AADA8D7009029B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F65E5D6D2AADA8D7009029B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F65E5D6F2AADA8D7009029B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F65E5D7C2AADACE6009029B2 /* UsersProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersProtocols.swift; sourceTree = "<group>"; };
+		F65E5D7E2AADAD08009029B2 /* UsersBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersBuilder.swift; sourceTree = "<group>"; };
+		F65E5D802AADAD3C009029B2 /* UsersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersPresenter.swift; sourceTree = "<group>"; };
+		F65E5D822AADAD46009029B2 /* UsersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRouter.swift; sourceTree = "<group>"; };
+		F65E5D882AADAE69009029B2 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		F6D35AEC2AB9E7F600B61ECD /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		F6D35AFA2AB9FB1300B61ECD /* DefaultImageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultImageData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,12 +70,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F65E5D862AADADEF009029B2 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F626EBF32AB5D57300F492D2 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				F626EC342AB7923200F492D2 /* CoreData.xcdatamodeld */,
+				F626EC1A2AB5EBDA00F492D2 /* CoreDataStack.swift */,
+				F626EC1E2AB6F37C00F492D2 /* CoreDataManager.swift */,
+				F626EC3A2AB8551100F492D2 /* CoreDataProtocols.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		F626EC372AB8496500F492D2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F626EC382AB8497800F492D2 /* UserCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F626EC3E2AB87D9A00F492D2 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				F626EC412AB87DDD00F492D2 /* DetailBuilder.swift */,
+				F626EC402AB87DCA00F492D2 /* Interfaces */,
+				F626EC3F2AB87DC100F492D2 /* Implementations */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		F626EC3F2AB87DC100F492D2 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				F626EC452AB87E3800F492D2 /* DetailView.swift */,
+				F626EC472AB87E4200F492D2 /* DetailPresenter.swift */,
+				F626EC492AB87E4B00F492D2 /* DetailRouter.swift */,
+				F626EC4B2AB8DC9A00F492D2 /* TextFieldCell.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		F626EC402AB87DCA00F492D2 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				F626EC432AB87E0F00F492D2 /* DetailProtocols.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
 		F65E5D552AADA8D7009029B2 = {
 			isa = PBXGroup;
 			children = (
@@ -91,9 +181,61 @@
 		F65E5D782AADA906009029B2 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				F65E5D652AADA8D7009029B2 /* ViewController.swift */,
+				F6D35AF92AB9FB0400B61ECD /* Enums */,
+				F626EBF32AB5D57300F492D2 /* CoreData */,
+				F65E5D872AADAE51009029B2 /* Extensions */,
+				F65E5D792AADACB8009029B2 /* Users */,
+				F626EC3E2AB87D9A00F492D2 /* Detail */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		F65E5D792AADACB8009029B2 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				F65E5D7E2AADAD08009029B2 /* UsersBuilder.swift */,
+				F65E5D7B2AADACD1009029B2 /* Interaces */,
+				F65E5D7A2AADACC8009029B2 /* Implemantations */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		F65E5D7A2AADACC8009029B2 /* Implemantations */ = {
+			isa = PBXGroup;
+			children = (
+				F626EC372AB8496500F492D2 /* Cells */,
+				F65E5D652AADA8D7009029B2 /* UsersView.swift */,
+				F65E5D802AADAD3C009029B2 /* UsersPresenter.swift */,
+				F65E5D822AADAD46009029B2 /* UsersRouter.swift */,
+			);
+			path = Implemantations;
+			sourceTree = "<group>";
+		};
+		F65E5D7B2AADACD1009029B2 /* Interaces */ = {
+			isa = PBXGroup;
+			children = (
+				F65E5D7C2AADACE6009029B2 /* UsersProtocols.swift */,
+			);
+			path = Interaces;
+			sourceTree = "<group>";
+		};
+		F65E5D872AADAE51009029B2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F65E5D882AADAE69009029B2 /* UIView+Extensions.swift */,
+				F626EC3C2AB87A2800F492D2 /* UIViewController+Extensions.swift */,
+				F626EC4D2AB8E40000F492D2 /* UIStackView+Extensions.swift */,
+				F6D35AEC2AB9E7F600B61ECD /* Date+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F6D35AF92AB9FB0400B61ECD /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				F6D35AFA2AB9FB1300B61ECD /* DefaultImageData.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +254,9 @@
 			dependencies = (
 			);
 			name = "iOS10-HW22-Alexandr-Ivanov";
+			packageProductDependencies = (
+				F65E5D852AADADEF009029B2 /* SnapKit */,
+			);
 			productName = "iOS10-HW22-Alexandr-Ivanov";
 			productReference = F65E5D5E2AADA8D7009029B2 /* iOS10-HW22-Alexandr-Ivanov.app */;
 			productType = "com.apple.product-type.application";
@@ -140,6 +285,9 @@
 				Base,
 			);
 			mainGroup = F65E5D552AADA8D7009029B2;
+			packageReferences = (
+				F65E5D842AADADEF009029B2 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = F65E5D5F2AADA8D7009029B2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -166,9 +314,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F65E5D662AADA8D7009029B2 /* ViewController.swift in Sources */,
+				F65E5D662AADA8D7009029B2 /* UsersView.swift in Sources */,
 				F65E5D622AADA8D7009029B2 /* AppDelegate.swift in Sources */,
+				F626EC462AB87E3800F492D2 /* DetailView.swift in Sources */,
+				F626EC4A2AB87E4B00F492D2 /* DetailRouter.swift in Sources */,
+				F626EC362AB7923200F492D2 /* CoreData.xcdatamodeld in Sources */,
+				F65E5D832AADAD46009029B2 /* UsersRouter.swift in Sources */,
+				F65E5D7D2AADACE6009029B2 /* UsersProtocols.swift in Sources */,
 				F65E5D642AADA8D7009029B2 /* SceneDelegate.swift in Sources */,
+				F626EC1F2AB6F37C00F492D2 /* CoreDataManager.swift in Sources */,
+				F626EC1B2AB5EBDA00F492D2 /* CoreDataStack.swift in Sources */,
+				F6D35AED2AB9E7F600B61ECD /* Date+Extensions.swift in Sources */,
+				F626EC442AB87E0F00F492D2 /* DetailProtocols.swift in Sources */,
+				F626EC392AB8497800F492D2 /* UserCell.swift in Sources */,
+				F626EC482AB87E4200F492D2 /* DetailPresenter.swift in Sources */,
+				F626EC3B2AB8551100F492D2 /* CoreDataProtocols.swift in Sources */,
+				F626EC3D2AB87A2800F492D2 /* UIViewController+Extensions.swift in Sources */,
+				F626EC422AB87DDD00F492D2 /* DetailBuilder.swift in Sources */,
+				F65E5D7F2AADAD08009029B2 /* UsersBuilder.swift in Sources */,
+				F65E5D892AADAE69009029B2 /* UIView+Extensions.swift in Sources */,
+				F626EC4E2AB8E40000F492D2 /* UIStackView+Extensions.swift in Sources */,
+				F6D35AFB2AB9FB1300B61ECD /* DefaultImageData.swift in Sources */,
+				F65E5D812AADAD3C009029B2 /* UsersPresenter.swift in Sources */,
+				F626EC4C2AB8DC9A00F492D2 /* TextFieldCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +544,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F65E5D842AADADEF009029B2 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F65E5D852AADADEF009029B2 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F65E5D842AADADEF009029B2 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		F626EC342AB7923200F492D2 /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F626EC352AB7923200F492D2 /* CoreDataModel.xcdatamodel */,
+			);
+			currentVersion = F626EC352AB7923200F492D2 /* CoreDataModel.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F65E5D562AADA8D7009029B2 /* Project object */;
 }
